@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Cookpal_logo.ico" type="image/x-icon">
+    <title>Cookpal | Menu Catalogue</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light  custom-navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./Cookpal_logo.svg" alt="Cookpal_logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Explore</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1">Help</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="profile">
+                <img src="./Profile.svg" alt="profile_pic">
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <!-- Hero section -->
+        <section class="hero">
+            <img src="./hero.svg" alt="hero_section">
+            <div class="text">
+                <p class="card-text">Trending now</p>
+                <p class="card-title">Mike’s famous salad with cheese</p>
+                <p class="card-subtitle1">By John Mike</p>
+            </div>
+        </section>
+
+        <!-- search & sort Section-->
+        <section class="search-sort">
+            <h6>Search For Recipes</h6>
+            <div class="search-container">
+                <i class="fa-solid fa-magnifying-glass icons" style="color: #a1a1a1;"></i>
+                <input type="text" id="input-search" class="input-search" placeholder="       Search for recipes...">
+                <i class="fa-solid fa-magnifying-glass icons-green" style="color: #a1a1a1;"></i>
+            </div>
+            <div class="sort-container">
+                <button class="btn btn-warning" id="All">All Recipes    ></button>
+                <button class="btn btn-success" id="Veg">Veg Recipes Only    ></button>
+                <button class="btn btn-danger" id="NVeg">Non-Veg Recipes Only   ></button>
+            </div>     
+        </section>
+
+        <!-- product section -->
+        <section class="Product_show">
+            <div class="side-menu" id="side-menu">
+              <h4>Filters</h4>
+              <div class="ratings">
+                <h6>Rating</h6>
+                <div class="Rating_checkbox">
+                <div><input type="checkbox" name="4&Above" id="4&Above" data-valid=1><label for="4&Above">4 and Above</label></div>
+                <div><input type="checkbox" name="4&Above" id="Four" data-valid=1><label for="Four">4</label></div>
+              </div>
+              </div>
+            </div>
+
+            <div class="product_area" id="product_area">
+
+              <!-- <div class="card" >
+                <img src="./pngegg.png" alt="product_image" class="card-img-top" />
+                <div class="card-body">
+                  <p class="card-subtitle">Veg</p>
+                  <div class="card-text-container">
+                    <h4 class="card-text">product</h4>
+                    <div class="icon-rating">
+                      <i class="fa-solid fa-star fa-2xs" style="color: #f5db38;"></i>
+                     <span class="rating-text">4.5</span>
+                  </div>
+                  </div>
+                  <div class="subtitle-rating">
+                    <p class="card-text-orange">Lorem </p>
+                    <div>
+                      <i class="fa-regular fa-heart" style="color: #787878;"></i>
+                      <i class="fa-regular fa-comment" style="color: #737373;"></i>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+
+              
+
+
+          </div>
+        </section>
+
+    </main>
+    <footer>
+      <section>
+        <div class="footer-content">
+          <div class="footer-text">
+            <img src="./Cookpal_logo.svg" alt="">
+            <p>Cookpal is a recipe website with a wide variety of delicious recipes, easy-to-use search function. Join our community and let's cook together!</p>
+          </div>
+          <div class="footer-links">
+            <table class="custom-table">
+              <tr>
+                  <th>Company</th>
+                  <th>Resources</th>
+              </tr>
+              <tr>
+                  <td>Home</td>
+                  <td>Blog</td>
+              </tr>
+              <tr>
+                  <td>Explore</td>
+                  <td>Use Cases</td>
+              </tr>
+              <tr>
+                  <td>Team</td>
+                  <td>Testimonials</td>
+              </tr>
+              <tr>
+                  <td>About us</td>
+                  <td>Insights</td>
+              </tr>
+              <tr>
+                  <td>Activity</td>                 
+              </tr>
+
+          </table>
+          </div>
+          <div class="footer-contact">
+            <img src="./Cookpal_logo.svg" alt="">
+            <p>Ut risus mattis interdum faucibus facilisi. Facilisi purus accumsan aliquam.</p>
+            <div><input type="email" name="" id="" placeholder="Your Email "><i class="fa-solid fa-at left" style="color: #8f8f8f;"></i>
+            <button class="btn-Subscribe">Subscribe</button></div>
+          </div>
+        </div>
+      </section>
+      <section class="social-icons">
+        <div class="social-tag"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></div>
+        <div class="social-tag"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></div>
+        <div class="social-tag"><i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i></div>
+        <div class="social-tag"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></div>
+      </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
