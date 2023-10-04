@@ -1,9 +1,9 @@
 const Menu = async ()=>{
-    let Products = await fetch('./Menu-Data.json')
+    let Products = await fetch('/Cookpal_Menu_Catalogue/Menu-data.json')
     .then(response => {
     return response.json();
     }).then (data => data);  
-    // console.log(Products[0]);
+    console.log(Products[0]);
 
     // {
     //     "name": "Veggie Delight",
@@ -109,21 +109,21 @@ function printAll(){
 }
     
 
-function allProductShow(i,Arr){
+function allProductShow(i,Products){
 const newProduct = document.createElement("div");
     newProduct.className = "card";
-    newProduct.innerHTML =` <img src="${Arr[i].imageSrc}" alt="product_image" class="card-img-top" />
+    newProduct.innerHTML =` <img src="${Products[i].imageSrc}" alt="product_image" class="card-img-top" />
     <div class="card-body">
-      <p class="card-subtitle">${Arr[i].type}</p>
+      <p class="card-subtitle">${Products[i].type}</p>
       <div class="card-text-container">
-        <h4 class="card-text">${Arr[i].name}</h4>
+        <h4 class="card-text">${Products[i].name}</h4>
         <div class="icon-rating">
           <i class="fa-solid fa-star fa-2xs" style="color: #f5db38;"></i>
-         <span class="rating-text">${Arr[i].rating}</span>
+         <span class="rating-text">${Products[i].rating}</span>
       </div>
       </div>
       <div class="subtitle-rating">
-        <p class="card-text-orange">${Arr[i].time}</p>
+        <p class="card-text-orange">${Products[i].time}</p>
         <div>
           <i class="fa-regular fa-heart" style="color: #787878;"></i>
           <i class="fa-regular fa-comment" style="color: #737373;"></i>
