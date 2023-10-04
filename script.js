@@ -135,7 +135,7 @@ const newProduct = document.createElement("div");
     productArea.appendChild(newProduct);
 }
 
-
+// printing the product
 printAll();
 }
 Menu();
