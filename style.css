@@ -155,7 +155,7 @@ input[type="checkbox"] {
   grid-area: product_area;
   padding: 0.8rem;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 1.5rem;
