@@ -16,6 +16,7 @@ header {
   left: 0px;
   z-index: 1100000;
   background-color: white;
+  padding: 0px 2.6rem;
 }
 .navbar-brand {
   margin-left: 2rem;
@@ -147,11 +148,14 @@ section {
 input[type="checkbox"] {
   margin-right: 0.8rem;
 }
+.Rating_checkbox>div:hover {
+  background-color: #d4d4d4;
+}
 .product_area {
   grid-area: product_area;
   padding: 0.8rem;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 1.5rem;
@@ -201,6 +205,9 @@ input[type="checkbox"] {
   flex-shrink: 0;
   gap: 2px;
 }
+footer{
+  padding: 0px 2.6rem;
+}
 .footer-content {
   display: flex;
   justify-content: center;
@@ -227,6 +234,7 @@ input[type="checkbox"] {
 .left {
   margin-left: -20px;
 }
+
 .btn-Subscribe {
   background-color: green;
   color: white;
@@ -262,6 +270,9 @@ input[type="checkbox"] {
   }
   main {
     padding: 1rem;
+  }
+  footer{
+    padding: 0px 1rem;
   }
   section {
     margin: 10px 0px;
@@ -312,6 +323,8 @@ input[type="checkbox"] {
   .product_area {
     padding: 0.8rem;
     gap: 0.5rem;
+    justify-content: center;
+    align-items: flex-start;
   }
   .card {
     width: 10rem;
@@ -350,6 +363,11 @@ input[type="checkbox"] {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
+  }
+  .email-Subscribe{
+    display: flex;
+    justify-content: center;
     align-items: center;
   }
 }

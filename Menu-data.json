@@ -1,7 +1,7 @@
 [
     {
         "name": "Veggie Delight",
-        "imageSrc": "https://source.unsplash.com/random?veggies",
+        "imageSrc": "https://source.unsplash.com/random/450x300/?veggies",
         "time": "30 min",
         "type": "veg",
         "isLiked": false,
@@ -9,7 +9,7 @@
     },
     {
         "name": "Chicken Grill",
-        "imageSrc": "https://source.unsplash.com/random?chicken",
+        "imageSrc": "https://source.unsplash.com/random/450x300/?chicken",
         "time": "45 min",
         "type": "non-veg",
         "isLiked": false,
@@ -17,7 +17,7 @@
     },
     {
         "name": "Cheese Pizza",
-        "imageSrc": "https://source.unsplash.com/random?pizza",
+        "imageSrc": "https://source.unsplash.com/random/450x300/?pizza",
         "time": "40 min",
         "type": "veg",
         "isLiked": false,
@@ -25,7 +25,7 @@
     },
     {
         "name": "Steak",
-        "imageSrc": "https://source.unsplash.com/random?steak",
+        "imageSrc": "https://source.unsplash.com/random/450x300/?steak",
         "time": "60 min",
         "type": "non-veg",
         "isLiked": false,
@@ -33,7 +33,7 @@
     },
     {
         "name": "Grilled Salmon",
-        "imageSrc": "https://source.unsplash.com/random?salmon",
+        "imageSrc": "https://source.unsplash.com/random/450x300/?salmon",
         "time": "50 min",
         "type": "non-veg",
         "isLiked": false,
@@ -41,7 +41,7 @@
     },
     {
         "name": "Tomato Pasta",
-        "imageSrc": "https://source.unsplash.com/random?pasta",
+        "imageSrc": "https://source.unsplash.com/random/450x300/?pasta",
         "time": "35 min",
         "type": "veg",
         "isLiked": false,
@@ -49,7 +49,7 @@
     },
     {
         "name": "Vegan Salad",
-        "imageSrc": "https://source.unsplash.com/random?salad",
+        "imageSrc": "https://source.unsplash.com/random/450x300/?salad",
         "time": "20 min",
         "type": "veg",
         "isLiked": false,
@@ -57,7 +57,7 @@
     },
     {
         "name": "Fried Chicken",
-        "imageSrc": "https://source.unsplash.com/random?friedChicken",
+        "imageSrc": "https://source.unsplash.com/random/450x300/?friedChicken",
         "time": "55 min",
         "type": "non-veg",
         "isLiked": false,
@@ -65,7 +65,7 @@
     },
     {
         "name": "Mushroom Risotto",
-        "imageSrc": "https://source.unsplash.com/random?risotto",
+        "imageSrc": "https://source.unsplash.com/random/450x300/?risotto",
         "time": "45 min",
         "type": "veg",
         "isLiked": false,
@@ -73,7 +73,7 @@
     },
     {
         "name": "Burger",
-        "imageSrc": "https://source.unsplash.com/random?burger",
+        "imageSrc": "https://source.unsplash.com/random/450x300/?burger",
         "time": "30 min",
         "type": "non-veg",
         "isLiked": false,
@@ -81,7 +81,7 @@
     },
     {
         "name": "Paneer Tikka",
-        "imageSrc": "https://source.unsplash.com/random?paneerTikka",
+        "imageSrc": "https://source.unsplash.com/random/450x300/?paneerTikka",
         "time": "40 min",
         "type": "veg",
         "isLiked": false,
@@ -89,7 +89,7 @@
     },
     {
         "name": "BBQ Ribs",
-        "imageSrc": "https://source.unsplash.com/random?ribs",
+        "imageSrc": "https://source.unsplash.com/random/450x300/?ribs",
         "time": "70 min",
         "type": "non-veg",
         "isLiked": false,
@@ -97,7 +97,7 @@
     },
     {
         "name": "Caesar Salad",
-        "imageSrc": "https://source.unsplash.com/random?caesarSalad",
+        "imageSrc": "https://source.unsplash.com/random/450x300/?caesarSalad",
         "time": "25 min",
         "type": "veg",
         "isLiked": false,
@@ -105,7 +105,7 @@
     },
     {
         "name": "Fish Tacos",
-        "imageSrc": "https://source.unsplash.com/random?fishTacos",
+        "imageSrc": "https://source.unsplash.com/random/450x300/?fishTacos",
         "time": "35 min",
         "type": "non-veg",
         "isLiked": false,
@@ -113,10 +113,18 @@
     },
     {
         "name": "Chocolate Cake",
-        "imageSrc": "https://source.unsplash.com/random?chocolateCake",
+        "imageSrc": "https://source.unsplash.com/random/450x300/?chocolateCake",
         "time": "90 min",
         "type": "veg",
         "isLiked": false,
         "rating": 4.9
+    },
+    {
+        "name": "Fish Tacos",
+        "imageSrc": "https://source.unsplash.com/random/450x300/?fishTacos",
+        "time": "35 min",
+        "type": "non-veg",
+        "isLiked": false,
+        "rating": 3.8
     }
 ]
