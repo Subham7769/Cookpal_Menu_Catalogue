@@ -1,5 +1,5 @@
 const Menu = async () => {
-  let Products = await fetch("./Menu-Data.json")
+  let Products = await fetch("/Cookpal_Menu_Catalogue/Menu-data.json")
     .then((response) => {
       return response.json();
     })
